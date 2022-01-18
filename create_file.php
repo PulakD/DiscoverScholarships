@@ -37,20 +37,11 @@ function write_file($array) {
 <link href='../assets/vendor/venobox/venobox.css' rel='stylesheet'>
 <link href='../assets/vendor/aos/aos.css' rel='stylesheet'>
 
-<!-- Template Main CSS File -->
 <link href='../assets/css/style.css' rel='stylesheet'>
-
-<!-- =======================================================
-* Template Name: Anyar - v2.1.0
-* Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-======================================================== -->
 </head>
 
 <body>
 
-<!-- ======= Top Bar ======= -->
 <div id='topbar' class='d-none d-lg-flex align-items-center fixed-top topbar-inner-pages'>
     <div class='container d-flex align-items-center'>
     <div class='contact-info mr-auto'>
@@ -62,13 +53,10 @@ function write_file($array) {
     </div>
 </div>
 
-<!-- ======= Header ======= -->
 <header id='header' class='fixed-top header-inner-pages'>
     <div class='container d-flex align-items-center'>
 
     <h1 class='logo mr-auto'><a href='../index.html#header' class='scrollto'>Discover Scholarships</a></h1>
-    <!-- Uncomment below if you prefer to use an image logo -->
-    <!-- <a href='index.html#header' class='logo mr-auto scrollto'><img src='../assets/img/logo.png' alt='' class='img-fluid'></a>-->
 
     <nav class='nav-menu d-none d-lg-block'>
         <ul>
@@ -78,14 +66,13 @@ function write_file($array) {
             <li><a href='../index.html#team'>Team</a></li>
             <li><a href='../index.html#contact'>Contact</a></li>
         </ul>
-    </nav><!-- .nav-menu -->
+    </nav>
 
     </div>
-</header><!-- End Header -->
+</header>
 
 <main id='main'>
 
-    <!-- ======= Breadcrumbs ======= -->
     <section id='breadcrumbs' class='breadcrumbs'>
         <div class='container'>
         
@@ -96,9 +83,8 @@ function write_file($array) {
             <h2>Scholarship Results</h2>
 
         </div>
-    </section><!-- End Breadcrumbs -->
+    </section>
 
-    <!-- ======= Portfolio Details Section ======= -->
     <section id='portfolio-details' class='portfolio-details'>
         <div class='container'>
             ";
@@ -141,13 +127,12 @@ function write_file($array) {
 
 
             $txt = "
-        </div> <!-- Container -->
+        </div>
 
-    </section><!-- End Portfolio Details Section -->
+    </section>
 
-</main><!-- End #main -->
+</main>
 
-<!-- ======= Footer ======= -->
 <footer id='footer'>
 
     <div class='container'>
@@ -155,12 +140,11 @@ function write_file($array) {
         &copy; Copyright <strong><span>Discover Scholarships</span></strong>. All Rights Reserved
     </div>
     </div>
-</footer><!-- End Footer -->
+</footer>
 
 <a href='#' class='back-to-top'><i class='ri-arrow-up-line'></i></a>
 <div id='preloader'></div>
 
-<!-- Vendor JS Files -->
 <script src='../assets/vendor/jquery/jquery.min.js'></script>
 <script src='../assets/vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
 <script src='../assets/vendor/jquery.easing/jquery.easing.min.js'></script>
@@ -170,7 +154,6 @@ function write_file($array) {
 <script src='../assets/vendor/isotope-layout/isotope.pkgd.min.js'></script>
 <script src='../assets/vendor/aos/aos.js'></script>
 
-<!-- Template Main JS File -->
 <script src='../assets/js/main.js'></script>
 
 </body>

@@ -15,14 +15,11 @@ include 'formvalidation.php';
   <meta content="Find scholarships to help pay for college using our free matching algorithm" name="description">
   <meta content="discoverscholarships, discoverscholarships.com, scholarships, scholarships for high school students, scholarship, college scholarships, scholarship search, scholarships for college, scholarships com, scholarships.com, discover scholarships, discoverscholarships.org, free scholarships, scholarship finder, scholarships and grants, grants and scholarships, college financial aid, scholarship websites, financial aid for college, scholarship opportunities, student scholarships, free financial aid, internship finder, scholarship search engine, private scholarships, college scholarship, scholarships search, fin aid, online scholarships, best scholarship websites, fast financial aid, college grants and scholarships, financial aid student loans, national scholarships, scholarship for college, free college scholarships, scholarship money, scholarship for college students, scholarships for students, apply for scholarships online, grants and scholarships for college, college scholarship search" name="keywords">
 
-  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -32,15 +29,7 @@ include 'formvalidation.php';
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Anyar - v2.1.0
-  * Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -57,13 +46,10 @@ include 'formvalidation.php';
     </div>
   </div>
 
-  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center">
 
       <h1 class="logo mr-auto"><a href="index.html#header" class="scrollto">Discover Scholarships</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html#header" class="logo mr-auto scrollto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -71,37 +57,16 @@ include 'formvalidation.php';
           <li><a href="index.html#about">About</a></li>
           <li class="active"><a href="index.html#services">Services</a></li>
           <li><a href="index.html#team">Team</a></li>
-          <!-- <li><a href="index.html#portfolio">Portfolio</a></li>
-          <li><a href="index.html#pricing">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
           <li><a href="index.html#contact">Contact</a></li>
 
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav>
 
     </div>
-  </header><!-- End Header -->
+  </header>
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
@@ -112,9 +77,8 @@ include 'formvalidation.php';
         <h2>Scholarship Match</h2>
 
       </div>
-    </section><!-- End Breadcrumbs -->
+    </section>
 
-    <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container" data-aos="zoom-in">
 
@@ -126,7 +90,6 @@ include 'formvalidation.php';
             <div class="mx-auto" style="width:90%;">    
                 <form class="needs-validation" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" novalidate>
                   
-                  <!-- Personal Information -->
                   <div class="personalinfo">
 
                     <h4 class="mb-4">Personal Information</h4>
@@ -401,13 +364,10 @@ include 'formvalidation.php';
                 </form>
 
                 <script>
-                  // Example starter JavaScript for disabling form submissions if there are invalid fields
                   (function() {
                     'use strict';
                     window.addEventListener('load', function() {
-                      // Fetch all the forms we want to apply custom Bootstrap validation styles to
                       var forms = document.getElementsByClassName('needs-validation');
-                      // Loop over them and prevent submission
                       var validation = Array.prototype.filter.call(forms, function(form) {
                         form.addEventListener('submit', function(event) {
                           if (form.checkValidity() === false) {
@@ -422,14 +382,13 @@ include 'formvalidation.php';
                 </script>
             </div>
           </div>
-        </div> <!-- card -->
+        </div>
 
-      </div> <!-- container -->
-    </section><!-- End Portfolio Details Section -->
+      </div>
+    </section>
 
-  </main><!-- End #main -->
+  </main>
 
-  <!-- ======= Footer ======= -->
   <footer id="footer">
 
     <div class="footer-top">
@@ -490,20 +449,12 @@ include 'formvalidation.php';
       <div class="copyright">
         &copy; Copyright <strong><span>Discover Scholarships</span></strong>. All Rights Reserved
       </div>
-      <!-- <div class="credits">
-         All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/ 
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div> -->
     </div>
-  </footer><!-- End Footer -->
+  </footer>
 
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -513,7 +464,6 @@ include 'formvalidation.php';
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
 
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
